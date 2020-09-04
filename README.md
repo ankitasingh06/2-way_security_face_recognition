@@ -24,7 +24,7 @@ And after that, trick of the security comes->
 Here I have used, very basic command of linux of user authentication system.
 
 As soon as admin create the user(say ankita user) with the help of "useradd" command
-    - "useradd ankita"
+   *  - "useradd ankita"
    * setup password for the user
     - "passwd ankita"
    * Lock the user
