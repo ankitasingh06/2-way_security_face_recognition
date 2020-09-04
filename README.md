@@ -6,11 +6,11 @@ Hello reader!!
 
 • Tools and Technology used:-
   1. Redhat Linux VM
-      RHEL8 VM and some basic Linux commands
+      - RHEL8 VM and some basic Linux commands
   2. Python Programming Language
-      OpenCV technology to enable vision to computer vision
+      -  OpenCV technology to enable vision to computer vision
   3. Anaconda Python Distributor
-      Jupyter Notebook as IDE to run program
+     -  Jupyter Notebook as IDE to run program
       
 • Project Description :-
 Project is capable to set up a 2-way security system, while login to the Redhat VM.When any user comes to login into the VM with their Username and Password, then here the user have to go one more security feature that is, first they have to clear first round by getting recognize their face to the trained model and then the 2nd step is to enter their username and Password.
