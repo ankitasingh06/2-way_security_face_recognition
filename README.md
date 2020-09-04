@@ -8,7 +8,7 @@ Hello reader!!
   1. Redhat Linux VM
       - Redhat VM and some basic Linux commands
   2. Python Programming Language
-      -  OpenCV technology to enable vision to computer vision
+      -  OpenCV technology to enable vision to computer vision and Haarcasscade classifier is used
   3. Anaconda Python Distributor
      -  Jupyter Notebook as IDE to run program
       
@@ -25,6 +25,9 @@ So, first of all we have to build our model and train it with the authorized use
 - For this we have to import cv2 module first.
 
 ![Screenshot (800)](https://user-images.githubusercontent.com/60088271/92269458-d671a800-ef01-11ea-90a2-0ed17abbd225.png)
+
+OpenCV provides a training method or pretrained models, that can be read using the cv::CascadeClassifier::load method. The pretrained models are located in the data folder in the OpenCV installation .
+The necessary XML file is loaded using the cv::CascadeClassifier::load method. Afterwards, the detection is done using the cv::CascadeClassifier::detectMultiScale method, which returns boundary rectangles for the detected faces or eyes.
 
 - Then we start our camera and let our program to capture those faces(say 100 images).
 
@@ -58,6 +61,8 @@ so that ,when user come to login into their system, first the user has to unlock
 
 For unlocking, the command used is:-
 - "usermod -U ankita"
+
+For giving the proper look and feel, Rectangular box has been created ,so that wherever the face gets detected, It will show rectangular box on face.
 
 ![Screenshot (805)](https://user-images.githubusercontent.com/60088271/92269753-6b74a100-ef02-11ea-800f-d795bd729072.png)
 
