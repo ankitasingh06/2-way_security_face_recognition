@@ -25,9 +25,9 @@ Here I have used, very basic command of linux of user authentication system.
 
 As soon as admin create the user(say ankita user) with the help of "useradd" command
     - "useradd ankita"
-   setup password for the user
+   * setup password for the user
     - "passwd ankita"
-   Lock the user
+   * Lock the user
     - "usermod -L ankita"
     
 Now, here the 2-way security can be used---->
