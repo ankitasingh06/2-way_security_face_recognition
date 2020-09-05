@@ -13,6 +13,8 @@ Hello reader!!
      -  Jupyter Notebook as IDE to run program
       
 • Project Description :-
+2-way security is required in today’s modern technological world. Hacking someone’s username and password is one of the common issue these days. This 2-way security system is used by many of the organizations and big MNCs like GOOGLE, as we have seen Gmail gives 2-way security system for the better security system to its user.
+
 Project is capable to set up a 2-way security system, while login to the Redhat VM.When any user comes to login into the VM with their Username and Password, then here the user have to go one more security feature that is, first they have to clear first round by getting recognize their face to the trained model and then the 2nd step is to enter their username and Password.
 
 When both the level gets pass, that user can eassily access their VM.
@@ -39,11 +41,12 @@ In cv2, there is a function videocapture() , which is used to open our camera , 
 
 ![Screenshot (808)](https://user-images.githubusercontent.com/60088271/92269548-0325bf80-ef02-11ea-9487-e11c565d0aaa.png)
 
-2. Now we have to train the model , with the help of dataset.
+2. Now we have to train the model , with the help of dataset.For training the model it is good for the machine to understand the images in gray coloured images, that is the reason why , we have actually captured coloured images(i.e. BGR format) but while showing and saving the images, we have converted those images into gray images.As we know that images are actually multi-dimensional array. It means- coloured iamges are 3-D array whereas , gray images are 2-D array, so this is the main reson why it is easy for the machine to train with gray sacled images, as it is easy to learn and process 2-D array comaparitive to 3-D array. 
 
 ![Screenshot (804)](https://user-images.githubusercontent.com/60088271/92269638-3405f480-ef02-11ea-945a-0e99328ea031.png)
 
 3. And after that, trick of the security comes->
+Open you Redhat terminal and then we have to run three basic linux commands.
 Here I have used, very basic command of linux of "user authentication system".
 
 As soon as admin create the user(say ankita user) with the help of "useradd" command
@@ -88,10 +91,16 @@ For giving the proper look and feel, Rectangular box has been created ,so that w
 
 ![Screenshot (810)](https://user-images.githubusercontent.com/60088271/92270394-9c090a80-ef03-11ea-9c99-67d83cade3cc.png)
 
-So this is how, our own developed "2-way security system" successfully worked.
+So this is how, our own developed "2-way security system" successfully worked.😇✨
+
+•Future Scope: As our world is moving towards the automation and paperless work with the help of technologies, following can be designed to enhance the project :-
+1.	Attendance system
+2.	This can be used in security scan of any important data
+3.	Counting the number of persons that are attending any seminar/conference.
+
 
 ⁕ you can also refer to the program code that has been attached to the repository.
 
-Thank you
+Thank you😊
 
   
